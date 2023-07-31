@@ -1,8 +1,6 @@
 // product.spec.js
 describe('Product Component', () => {
   beforeEach(() => {
-    // Assuming the application is running at http://localhost:8888
-    // This will run before each test in this describe block
     cy.visit('http://localhost:3000');
   });
 
